@@ -1,0 +1,27 @@
+!SESSION 2020-10-09 09:57:43.426 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=fr_FR
+Command-line arguments:  -clean -nl fr_FR -configuration /Users/theonguyen/Desktop/2020-2021/COS/opti/projet/satellitePlanning/.metadata/workspace_oplrun
+
+!ENTRY ilog.odms.ide.opllang.remote 1 0 2020-10-09 09:57:43.439
+!MESSAGE Run Configuration sat 1 in /Users/theonguyen/Desktop/2020-2021/COS/opti/projet/satellitePlanning/Opti
+!SESSION 2020-10-09 10:02:48.874 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=fr_FR
+Command-line arguments:  -clean -nl fr_FR -configuration /Users/theonguyen/Desktop/2020-2021/COS/opti/projet/satellitePlanning/.metadata/workspace_oplrun
+
+!ENTRY ilog.odms.ide.opllang.remote 1 0 2020-10-09 10:02:48.890
+!MESSAGE Run Configuration  sat 2 in /Users/theonguyen/Desktop/2020-2021/COS/opti/projet/satellitePlanning/Opti
+!SESSION 2020-10-09 10:14:26.076 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=fr_FR
+Command-line arguments:  -clean -nl fr_FR -configuration /Users/theonguyen/Desktop/2020-2021/COS/opti/projet/satellitePlanning/.metadata/workspace_oplrun
+
+!ENTRY ilog.odms.ide.opllang.remote 1 0 2020-10-09 10:14:26.085
+!MESSAGE Run Configuration  sat 2 in /Users/theonguyen/Desktop/2020-2021/COS/opti/projet/satellitePlanning/Opti
