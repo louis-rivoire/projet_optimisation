@@ -86,7 +86,7 @@ public class BadAcquisitionPlannerGreedy {
 	 * Planning function which uses a greedy algorithm taking into account priority. The latter tries to plan at each step 
 	 * one additional acquisition (randomly chosen), while there are candidate acquisitions left.
 	 */
-	public void planAcquisitionPriority(){
+	public void planAcquisitionsPriority(){
 
 		Random rand = new Random(0);
 		
@@ -94,10 +94,12 @@ public class BadAcquisitionPlannerGreedy {
 		int nPlanned = 0;
 		int nCandidates=0;
 		for(int i=0;i<=1;i++) {
+			// loop from 0 to 1 to represent the priority level :
+			// the acquisition candidates of high priority are selected first,
+			// then the acquisition candidates of low priority
 			List<CandidateAcquisition> candidateAcquisitions;
 			if(i==0){
 				candidateAcquisitions = new ArrayList<CandidateAcquisition>(planningProblem.candidateAcquisitionsHP);
-				
 			}
 			else {
 				candidateAcquisitions = new ArrayList<CandidateAcquisition>(planningProblem.candidateAcquisitionsLP);
@@ -224,7 +226,7 @@ public class BadAcquisitionPlannerGreedy {
 		PlanningProblem pb = parser.read(Params.systemDataFile,Params.planningDataFile);
 		pb.printStatistics();
 		BadAcquisitionPlannerGreedy planner = new BadAcquisitionPlannerGreedy(pb);
-		planner.planAcquisitionPriority();	
+		planner.planAcquisitionsPriority();	
 		for(Satellite satellite : pb.satellites){
 			planner.writePlan(satellite, "output/solutionAcqPlan_"+satellite.name+".txt");
 		}
